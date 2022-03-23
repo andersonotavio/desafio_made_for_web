@@ -22,8 +22,8 @@ ul{
 
 .header-bg{
   background: #92E2E9;
-  max-width: 100%;
 }
+
 .header-container{
   max-width: 1200px;
   margin: 0 auto;
@@ -32,6 +32,7 @@ ul{
   gap: 10px;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .header-logo{
@@ -43,12 +44,47 @@ ul{
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  padding-top: 40px;
 }
 
 .header-menu a{
   color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .header-menu a:hover{
   filter: brightness(0.9);
+}
+.header-icone-vezes {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 60px;
+  left: 80px;
+}
+
+.header-icone-atomo{
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 60px;
+  color: #F8F47C;
+  left: 350px;
+  animation: is-rotating 4s infinite;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-icone-lapis{ 
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 60px;
+  color: #F8F47C;
+  left: 550px;
 }

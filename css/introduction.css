@@ -1,0 +1,87 @@
+.introduction-bg{
+    background: #49CED9;
+}
+
+.introduction-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.introduction-text{
+    align-self: flex-end;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.introduction-text h1{
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.introduction-text p{
+    color: #FFF;
+    padding-bottom: 20px;
+   
+}
+
+.introduction-paragraph{
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introduction-image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: right center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 20px;  
+}
+.introduction-text a{
+    color: #494948;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background: #F8F47C;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.introduction-text a:hover{
+    filter: brightness(0.9);
+}
+
+.introduction-icone-vezes{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 60px;
+    left: 600px;
+    top: 100px;
+}
+
+.introduction-icone-dividir{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 40px;
+    top: 100px;
+}
+.introduction-icone-lapis{
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 40px;
+    top: 330px;
+    transform: scaleX(-1);
+    left: -20px;
+    margin: 20px;
+}
