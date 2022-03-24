@@ -1,0 +1,16 @@
+.metodologia-bg{
+    max-width: 1200px;
+}
+.metodologia-bg h2{
+    text-align: center;
+}
+.metodologia-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.metodologia-icones img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}

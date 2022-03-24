@@ -7,6 +7,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -154,6 +155,7 @@
     .introduction-icone-atomo{
         display: none;
     }
+
     .introduction-text h1{
         font-size: 1.5rem;
     }
