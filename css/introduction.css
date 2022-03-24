@@ -5,7 +5,8 @@
 .introduction-container{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -19,7 +20,7 @@
     color: #FFF;
     padding-top: 40px;
     padding-bottom: 20px;
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .introduction-text p{
@@ -113,11 +114,84 @@
   .introduction-icone-mochila{
     position: absolute;
     display: block;
-    width: 70px;
+    width: 80px;
     height: 60px;
     top: 340px;
-    left: 800px;
+    right: 10px;
     
+  }
+
+  @media(max-width: 1000px){
+    .introduction-text h1{
+        font-size: 2rem;
+    }
+    .introduction-text p{
+        font-size: 0.85rem;
+    }
+    .introduction-image img{
+        width: 14rem;
+        height: 14rem;
+    }
+    .introduction-icone-mochila,
+    .introduction-icone-lapis{
+        top: 300px;
+    }
+  }
+  @media(max-width: 900px){
+    .introduction-image img{
+        display: none;
+    }
+    .introduction-icone-dividir2{
+        left: 500px;
+    }
+    
+  }
+
+  @media(max-width: 800px){
+    .introduction-icone-mochila,
+    .introduction-icone-lapis,
+    .introduction-icone-dividir2,
+    .introduction-icone-atomo{
+        display: none;
+    }
+    .introduction-text h1{
+        font-size: 1.5rem;
+    }
+    .introduction-text p{
+        font-size: 0.70rem;
+    }
+    .introduction-text a{
+        font-size: 11px;
+    }
+    
+  }
+  @media(max-width: 700px){
+    .introduction-text{
+        padding-top: 0px;
+    }
+    .introduction-icone-vezes{
+        display: none;
+    }
+  }
+  @media(max-width: 400px){
+    .introduction-icone-dividir{
+        display: none;
+    }
+    .introduction-text{
+        padding: 0px;
+        margin-left:30px ;
+        top: 0px;
+    }
+    .introduction-text h1{
+        font-size: 1.4rem;
+    }
+    .introduction-text p{
+        padding-bottom: 0px;
+    }
+    .introduction-text a{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
   }
 
   

@@ -39,6 +39,9 @@ ul{
   width: 9.5rem;
   padding: 20px;
 }
+.menu-hamburguer{
+  display: none;
+}
 .header-menu{
   display: flex;
   flex-wrap: wrap;
@@ -69,7 +72,6 @@ ul{
   display: block;
   width: 50px;
   height: 60px;
-  color: #F8F47C;
   left: 350px;
   animation: is-rotating 4s infinite;
 }
@@ -88,3 +90,65 @@ ul{
   color: #F8F47C;
   left: 550px;
 }
+
+.header-icone-mochila{
+  display: none;
+}
+@media(max-width: 1000px){
+  .header-icone-lapis{
+    left: 450px;
+  }
+  .header-icone-atomo{
+    left: 250px;
+  }
+}
+
+
+@media(max-width: 900px){
+  .header-icone-lapis{
+    left: 400px;
+  }
+  .header-icone-atomo{
+    left: 250px;
+  }
+}
+@media(max-width:800px){
+  .header-icone-lapis,
+  .header-icone-vezes{
+    display: none;
+  }
+  .menu-hamburguer{
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+    width: 70vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+  }
+  nav.ativo{
+    display: block;
+  }
+  .header-menu{
+    flex-direction: column;
+  }
+
+}
+
+@media(max-width: 400px){
+  .header-icone-atomo{
+    width: 30px;
+    height: 50px;
+    left: 200px;
+  }
+  .menu-hamburguer{
+    margin-right: 10px;
+  }
+}
+
