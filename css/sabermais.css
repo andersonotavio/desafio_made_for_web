@@ -1,0 +1,137 @@
+.saber-mais-bg{
+  background: #FAFAFA;
+
+}
+
+.saber-mais-container{
+  display: flex;
+  max-width: 1200px;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.saber-mais-content{
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.saber-mais-info h3{
+  color: #707070;
+  font-size: 2.75rem;
+  padding-bottom: 30px;
+}
+.saber-mais-paragrafo1{
+  font-size: 0.85rem;
+  padding-bottom: 20px;
+  color: #707070;
+}
+.saber-mais-paragrafo2{
+  font-weight: bold;
+  color: #707070;
+  padding-bottom: 20px;
+}
+.saber-mais-form{
+  width: 700px;
+  height: 630px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding: 30px;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  
+}
+.saber-mais-opcoes{
+  font-size: 0.75rem;
+  color: #707070;
+ 
+}
+
+.saber-mais-label{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: block;
+  color: #8E8E8E;
+}
+.saber-mais-input{
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  
+  
+}
+.saber-mais-content2{
+  background-color: #F2F2F2;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.saber-mais-input.segmento{
+  background: #F2F2F2;
+}
+
+.saber-mais-content2 h3{
+  color:#747373;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+.saber-mais-form2{
+  display: flex;
+  gap: 20px;
+}
+.saber-mais-label.segmento{
+  font-size: 0.75rem;
+}
+
+.saber-mais-label2{
+  color: #F887AD;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.saber-mais-form2 select{
+  background: #F2F2F2;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+.saber-mais-btn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.saber-mais-button{
+  border: none;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #000;
+  color:#747373;
+  padding: 10px 30px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+ 
+  
+}
+.saber-mais-button:hover{
+  filter: brightness(0.9);
+}
+.saber-mais-confirmar a{
+  color: #fff;
+  background: #49CED9;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 20px;
+}

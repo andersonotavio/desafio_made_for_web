@@ -4,6 +4,7 @@
   
 }
 .corpo-docente h3 {
+  font-size: 1.5rem;
   text-align: center;
   padding-bottom: 40px;
   color: #707070;
@@ -22,12 +23,12 @@
   
 }
 .docente-professor {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color:#707070;
   padding-top: 10px ;
   padding-bottom: 10px;
 }
 .corpo-docente-funcao{
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   color:#707070;
 }

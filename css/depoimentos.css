@@ -1,20 +1,44 @@
 .depoimento-container{
   max-width: 1100px;
   margin: 0 auto;
+  padding-top: 40px;
 
 }
 .depoimento-container h3{
   text-align: center;
+  padding-bottom: 40px;
+  color: #707070;
+  font-size: 1.5rem;
+
 }
 .depoimentos-bg{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
 }
 .depoimentos-pessoas{
   display: flex;
+  width: 450px;
+  height: 300px;
+  
 
 }
+.depoimentos-pessoas p{
+  font-size: 0.85rem;
+  padding: 0px 0px 0px 20px;
+  
+}
 
-.depoimentos-pessoas img{
-
+.depoimento-imagem img{
+  width: 800px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center ;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.depoimento-imagem p{
+  font-size: 0.85rem;
+  padding-top: 10px;
+  text-align: left;
 }

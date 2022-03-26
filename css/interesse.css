@@ -15,11 +15,12 @@
 .interesse-bg h3{
   color: #FFF;
   padding-bottom: 20px;
+  font-size: 1.5rem;
 }
 .interesse-bg p{
   color: #fff;
   padding-bottom: 20px;
-  font-size: .75rem;
+  font-size: .90rem;
 }
 
 .interesse-bg a{
@@ -29,7 +30,7 @@
   display: inline-block;
   border-radius: 15px;
   text-transform: uppercase;
-  font-size: .85rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .interesse-imagem svg{

@@ -29,7 +29,7 @@
 }
 .metodologia-paragrafos{
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
     max-width: 300px;
     margin: 0 auto;
     
@@ -61,8 +61,25 @@
     
 }
 .nosso-orgulho-paragrafos{
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 .nosso-ougulho-international h3{
     padding-bottom: 20px;
+}
+
+@media(max-width: 800px){
+    .metodologia-grid{
+    
+        grid-template-columns: 1fr;
+        
+    }
+    .nosso-orgulho-bg{
+        grid-template-columns: 1fr;
+    }
+    .nosso-orgulho-titulo{
+        text-align: center;
+    }
+    .nosso-ougulho-international h3{
+        text-align: center;
+    }
 }

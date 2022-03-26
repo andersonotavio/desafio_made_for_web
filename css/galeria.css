@@ -57,3 +57,42 @@
     border-radius: 15px;
     box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+@media(max-width: 800px){
+    .galeria-container-one{
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        
+        padding: 0px;
+    }
+    .galeria-container-two{
+
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        
+        
+    }
+    .galeria-three{
+        padding: 0px;
+    }
+    .galeria-three img{
+        box-shadow: none;
+    }
+    .galeria-one img{
+        border-radius: 0px;
+    }
+    .galeria-two img{
+        border-radius: 0px;
+    }
+    .galeria-three img{
+        border-radius: 0px;
+        
+    }
+    .galeria-five img{
+        border-radius: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    
+}
