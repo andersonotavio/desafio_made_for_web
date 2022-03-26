@@ -1,0 +1,33 @@
+.corpo-docente{
+  max-width: 1100px;
+  margin: 0 auto;
+  
+}
+.corpo-docente h3 {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #707070;
+}
+.corpo-docente-professor{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.corpo-docente-professor img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  
+}
+.docente-professor {
+  font-size: 0.85rem;
+  color:#707070;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+.corpo-docente-funcao{
+  font-size: 0.65rem;
+  color:#707070;
+}

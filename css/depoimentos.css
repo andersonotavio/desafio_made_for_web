@@ -1,0 +1,20 @@
+.depoimento-container{
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+.depoimento-container h3{
+  text-align: center;
+}
+.depoimentos-bg{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.depoimentos-pessoas{
+  display: flex;
+
+}
+
+.depoimentos-pessoas img{
+
+}
